@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .container {
+  max-width: 1280px;
+}
+
+.navbar .container .logo {
+  width: 106px;
+}
+
+.navbar .container .nav-link {
+  font-size: 20px;
+}
+
+.navbar .container .nav-link i {
+  font-size: 30px;
+}
+
+main {
+  width: 100%;
+  min-height: calc(100vh - 103px);
+  background-color: #d6d6d6;
+}
+
+main .circle-progress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .circle-progress .circle-number {
+  width: 40px;
+  height: 40px;
+  color: white;
+  font-size: 20px;
+  border-radius: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .circle-progress .circle-text {
+  font-size: 18px;
+}
+
+main .progress {
+  width: 155px;
+  height: 10px;
+}
+
+main .buycar-list {
+  -webkit-box-shadow: 2px 2px 15px rgba(116, 116, 116, 0.7);
+          box-shadow: 2px 2px 15px rgba(116, 116, 116, 0.7);
+}
+
+main .buycar-list .list .list-title {
+  border-top: 1px #dfdfdf solid;
+}
+
+main .buycar-list .list .food-list {
+  border-bottom: 1px solid #dfdfdf;
+}
+
+main .buycar-list .list .food-list img {
+  width: 60px;
+  height: 60px;
+}
+
+main .buycar-list .list .food-list .food-name {
+  font-size: 20px;
+}
+
+main .buycar-list .list .food-list .order-count {
+  width: 32px;
+  height: 24px;
+  background-color: #f3f3f3;
+  border: 1px #cecece solid;
+}
+
+main .buycar-list .list .order-all .all-count-text {
+  width: 200px;
+  color: gray;
+}
+
+main .buycar-list .list .order-all .all-count-number {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+main .buycar-list .list .list-bot .btn-next {
+  width: 144px;
+  height: 48px;
+}
+
+main .buycar-list .list .list-bot i {
+  font-size: 24px;
+}
+
+main .buycar-list .list .list-bot span {
+  font-size: 20px;
+}
+
+footer .bot-logo {
+  font-size: 22px;
+}
+
+footer .bot-logo-text {
+  font-size: 18px;
+}
+
+footer li {
+  list-style: none;
+  cursor: pointer;
+}
+
+footer .copyright {
+  width: 100%;
+  height: 88px;
+  background-color: #f1f1f1;
+  font-size: 18px;
+}
+/*# sourceMappingURL=購物車01.css.map */
